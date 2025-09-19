@@ -1,5 +1,5 @@
 # Stage 1: Build React app with Vite
-FROM node:18 AS build
+FROM node:latest
 
 WORKDIR /app
 COPY package.json package-lock.json* ./
